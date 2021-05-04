@@ -1,20 +1,39 @@
-.App-pub {
+.App{
+ 
+    justify-content:center;
+    display: flex;
+    padding-top: 10%;
+  
+
+}
+.App-pub  {
     flex-direction: column;
     display: inline-block;
-    align-items: center;
+    text-align: center;
     width: 300px;
     height: 300px;
     object-fit: contain;
     border-radius: 50%;
     border: 16px rgb(80, 199, 235) solid;
+    font-size: 0.5em;
+    color: rgb(174, 50, 205);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    padding-top: 2%;
+   
 }
 .App-img{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    align-items: center;
+   
+
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: turquoise;
+    overflow: hidden;
+ 
+
+    display:inline-block;
+    vertical-align:middle;
+   
     
 }
 .App-name{
@@ -27,12 +46,16 @@
     border-radius: 50%;
     border: 16px rgb(80, 199, 235) solid;  
     font-size: 1.2em;
- 
+    color: rgb(174, 50, 205);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5%;
+    font-weight: lighter;
 }
 
-body{
+body , html{
     position: relative;
-     background-color: tomato;
-      min-height: 45rem;
-      padding-bottom:100px;
+    background: url(../src/image/bg-bg.jpg) no-repeat center center fixed;
+     background-size: cover;
+     height: 100%;
+     
   }

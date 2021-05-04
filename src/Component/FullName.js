@@ -3,7 +3,7 @@ import '../style.css';
 const Full = () => {
     return(
     <div className='App-name'>
-     <h1>Hanen Ghribi</h1>
+     <h1>Hanen <br/> Ghribi</h1>
     </div>
     );
        
