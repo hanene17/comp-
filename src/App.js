@@ -1,8 +1,8 @@
 
 
-import Add from  './Component/Address'
+import Add from  './Component/Profile/Address'
 import Im from './Component/Profile/ProfilePhoto'
-import Full from './Component/FullName'
+import Full from './Component/Profile/FullName'
 import './style.css';
 
 
